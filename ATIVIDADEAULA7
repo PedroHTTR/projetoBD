@@ -1,0 +1,25 @@
+EXERCICIOS INSERT 
+
+ATIVIDADE 6
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES ('ACRE','AC','S','2022-09-03');
+INSERT INTO estado (id,nome,sigla,ativo,data_cadastro) VALUES ('MACAPA','AP','S','2022-09-03');
+
+ATIVIDADE 7
+INSERT INTO estado (nome,sigla) VALUES ('AMAZONAS','AM'); 
+INSERT INTO estado (nome,sigla) VALUES ('BAHIA','BA'); 
+
+EXERCICIOS DELETE
+
+ATIVIDADE 11
+UPDATE cidade SET ativo = 'N';
+
+ATIVIDADE 12
+DELETE FROM cidade WHERE nome = 'BAURU';
+
+EXERCICIOS SELECT
+
+ATIVIDADE 6
+SELECT * FROM cidade;
+
+ATIVIDADE 7
+SELECT nome FROM cidade;
