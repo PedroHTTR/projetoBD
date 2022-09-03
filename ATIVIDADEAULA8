@@ -1,0 +1,22 @@
+EXERCICIO 1
+O comando join é utilizado para realiza junçoes entre tabelas, ele é utilizado para podermos comparar tabelas que possuam dados semelhantes
+
+EXERCICIO 2
+A Sintaxe do comando JOIN varia de acordo com as versões do SQL, podendo ser:
+
+SELECT *
+FROM estado, cidade;
+
+Ou podendo ser também
+
+SELECT *
+FROM estado
+JOIN cidade;
+
+A diferença entre letras maiusculas ou minusculas fazem sim a diferença a depender do padrão escolhido a se seguir podendo variar de empresa pra empresa.
+
+EXERCICIO 4
+É essencial que durante o uso do comando JOIN as tabelas possuam alguma corelação pois de outra forma os dados comparados não farão sentido algum.
+
+EXERCICIO 5
+Sim existem mais de uma maneira, sendo 5 delas especificadas sendo:INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN e CROSS JOIN, nenhuma delas possui eficiencia maior pois executam funçoes diferente.
